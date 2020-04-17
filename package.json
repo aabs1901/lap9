@@ -1,0 +1,29 @@
+{
+  "name": "student-sign-in-api",
+  "description": "Vue and Express API Student Sign In app",
+  "author": "Abdulwahid",
+  "main": "server.js",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.11.0",
+    "core-js": "^3.6.4",
+    "express": "^4.17.1",
+    "pg": "^8.0.2",
+    "sequelize": "^5.21.6",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "sqlite3": "^4.1.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
